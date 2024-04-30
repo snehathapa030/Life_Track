@@ -1,0 +1,27 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "backend/server.js",
+	"engines": {
+		"node": "20.11.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node backend/server.js",
+		"dev": "nodemon backend/server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"express-session": "^1.18.0",
+		"mongoose": "^8.3.2",
+		"passport": "^0.7.0",
+		"passport-local-mongoose": "^8.0.0",
+		"path": "^0.12.7"
+	}
+}
